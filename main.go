@@ -9,9 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type apiConfig12 struct {
-  OpenWeatherApiKey string `json:"OpenWeatherApiKey"`
- }
+
 
 type weatherD struct {
  Name string `json:"name"`
